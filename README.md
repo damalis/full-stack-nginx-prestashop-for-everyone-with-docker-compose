@@ -218,7 +218,9 @@ https://example.com
 
 #### Admin screen
 
-```https://example.com/admin```, ```Email address: ${LETSENCRYPT_EMAIL} and Password: ${PMA_CONTROLPASS}``` in the .env file.
+Replace 'admin' in this block with the name of your admin directory in the ```./webserver/templates/nginx.conf.template```.
+
+```https://example.com/admin```, ```Email address: ${LETSENCRYPT_EMAIL} and Password: ${PMA_HTPASSWD_PASSWORD}``` in the .env file.
 
 add or remove code in the ./php-fpm/php/conf.d/security.ini file for custom php.ini configurations
 
@@ -240,6 +242,8 @@ add and/or remove prestashop site folders and files with any ftp client program 
 add or remove code in the ```./webserver/templates/nginx.conf.template``` file for custom nginx configurations
 
 [https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/)
+
+Optimize your nginx configuration here(https://devdocs.prestashop-project.org/8/scale/webservers/nginx/).
 
 #### Database
 
