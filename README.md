@@ -243,7 +243,7 @@ add or remove code in the ```./webserver/templates/nginx.conf.template``` file f
 
 [https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/)
 
-Optimize your nginx configuration here(https://devdocs.prestashop-project.org/8/scale/webservers/nginx/).
+Optimize your nginx configuration [here](https://devdocs.prestashop-project.org/8/scale/webservers/nginx/).
 
 #### Database
 
