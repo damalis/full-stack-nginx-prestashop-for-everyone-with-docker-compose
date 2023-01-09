@@ -210,7 +210,7 @@ docker compose up -d
 
 ### Website
 
-You should see the "" page in your browser. If not, please check if your PHP installation satisfies PrestaShop's requirements.
+You should see the "PrestaShop demo site" page in your browser. If not, please check if your PHP installation satisfies PrestaShop's requirements.
 
 ```
 https://example.com
