@@ -74,7 +74,7 @@ server {
 	# [EDIT] Replace 'admin-dev' in this block with the name of your admin directory.
 	location /admin/ {
 		if (!-e $request_filename) {
-			rewrite ^ /admin/index.php last;
+			rewrite ^ /admin-dev/index.php last;
 		}
 	}
 	
