@@ -71,7 +71,6 @@ server {
 		try_files $uri /index.php$is_args$args;
 	}
 
-	# [EDIT] Replace 'admin-dev' in this block with the name of your admin directory.
 	location /admin-dev/ {
 		if (!-e $request_filename) {
 			rewrite ^ /admin-dev/index.php last;
