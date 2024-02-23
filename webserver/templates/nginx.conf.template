@@ -67,11 +67,11 @@ server {
 	}
 
 	# [EDIT] Replace 'admin-dev' in this block with the name of your admin directory.
-    location /admin-dev/ {
-        try_files $uri $uri/ /admin-dev/index.php$is_args$args;
-    }
+	location /admin-dev/ {
+		try_files $uri $uri/ /admin-dev/index.php$is_args$args;
+	}
 	
-    location ~ [^/]\.php(/|$) {
+	location ~ [^/]\.php(/|$) {
 		# Split $uri to $fastcgi_script_name and $fastcgi_path_info.
 		fastcgi_split_path_info ^(.+?\.php)(/.*)$;
 
